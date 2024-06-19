@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import './Card.css';
 import flipSound from './sounds/flip.mp3';
 import matchSound from './sounds/match.mp3';
 import winSound from './sounds/win.mp3';

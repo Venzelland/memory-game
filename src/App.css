@@ -1,20 +1,13 @@
-.App {
-    text-align: center;
+body {
+    background-color: #83c5be;
+    color: #006d77;
 }
-
-.board {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 .card {
     width: 100px;
     height: 100px;
     perspective: 1000px;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .card-inner {
@@ -23,6 +16,7 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+    border: 2px solid;
 }
 
 .card.flipped .card-inner {
@@ -40,17 +34,30 @@
     font-size: 2em;
 }
 
-.card-front {
-    background: #fff;
-    border: 2px solid #000;
-}
-
 .card-back {
-    background: #000;
+    background: #006d77;
     color: #fff;
     transform: rotateY(180deg);
 }
 
-.card.matched {
-    visibility: hidden;
+.card-front {
+    background: #edf6f9;
+}
+
+.congratulations {
+    width: 443px;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #006d77;
+}
+
+.game-info {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #006d77 ;
+    color: #fff;
+    border: none;
+    margin: 3px;
 }
