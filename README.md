@@ -1,7 +1,9 @@
 <h1 align="center">Игра "Найди пару" на React</h1>
 
 <p align="center">
-<img src="./images/game-preview.gif" title="memory game" width="400px" height="400px">
+
+<img src="./src/images/game-preview.gif" title="memory game" width="400px" height="400px">
+
 </p>
 
 <h2 align="left">Описание проекта</h2>
@@ -10,7 +12,7 @@
 
 Цель создания проекта - разработать интерактивную и адаптивную версию игры "Найди пару" с использованием библиотеки React.
 
-Просмотреть проект можно на GitHub Pages по ссылке: [Ссылка на проект](https://your-project-link)
+Просмотреть проект можно на GitHub Pages по ссылке: [Ссылка на проект](https://venzelland.github.io/memory-game/)
 
 <h2 align="left">Функциональность проекта и использованные технологии</h2>
 
